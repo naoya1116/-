@@ -34,10 +34,11 @@ main{
   background-size: cover;
 }
 
-.step-img2{
+/* .step-img2{
   height: 150px;
+  margin: 0;
   background-image: url(img/flow02.png);
-  background-position: bottom;
+  background-position: bottom; 
   background-size: cover;
 }
 
@@ -46,7 +47,7 @@ main{
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
-}
+} */
 
 .step-num{
   padding: 3px;
@@ -67,3 +68,28 @@ footer{
   background-color: #AAAAAA;
 }
 
+@media screen and (max-width: 768px) {
+header{
+  width: 100%;
+}
+
+main{
+  width: 100%;
+  display: block;
+}
+
+.step-box{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.step-box:last-child{
+  margin: 20px auto 50px;
+}
+
+.step-box:first-child{
+  margin-top: 50px;
+}
+
+
+}
